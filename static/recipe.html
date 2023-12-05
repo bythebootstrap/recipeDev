@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="https://honest-utilities.netlify.app/honest.css">
         <link rel="stylesheet" href="/static/style.css">
-        <title>All of our Recipes</title>
+        <title>One Recipe</title>
     </head>
     <body>
         <header>
@@ -23,11 +23,17 @@
                 </ul>
             </nav>
         </header>
-        <section class="row" id="recipes">
+        <div class="row" id="recipe">
+        <section id="ingredients">
+            <h3>Ingredients</h3>
         </section>
+        <section id="directions">
+            <h3>Directions</h3>
+        </section>
+    </div>
         <script type="text/javascript" src="/static/recipes.js"></script>
         <script type="text/javascript" src="/static/script.js"></script>
         <script type="text/javascript" src="https://honest-utilities.netlify.app/honest.js"></script>
-        <script>allRecipes()</script>
+        <script>oneRecipe()</script>
     </body>
 </html>
