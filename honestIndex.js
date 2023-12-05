@@ -11,4 +11,4 @@ filesArray.foreach((item) => {
     recipesIndex.push(toAdd)
 });
 
-// Write recipesIndex to recipes.json file
+// Write recipesIndex to recipes.js file
