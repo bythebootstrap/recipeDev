@@ -13,7 +13,7 @@ function allRecipes(){
         let listing = document.createElement('div');
         let categories = ifArray(recipe.category);
         listing.setAttribute('class', 'listing');
-        listing.innerHTML = `<a href="/recipe.html?id=${recipe.slug}">${recipe.title}</a><p>${categories}</p>`
+        listing.innerHTML = `<a href="/static/recipe.html?id=${recipe.slug}">${recipe.title}</a><p>${categories}</p>`
         indexDiv.append(listing)
     });
 }

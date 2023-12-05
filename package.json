@@ -1,5 +1,5 @@
 {
     "scripts": {
-        "build": "/honestIndex.js"
+        "build": "node honestIndex.js"
     }
 }
